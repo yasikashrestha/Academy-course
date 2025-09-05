@@ -11,359 +11,55 @@
             aria-atomic="false"></section>
         <div class="min-h-screen bg-background">
 
-            <section id="home"
-                class="h-[150vh]  flex items-center justify-center relative overflow-hidden hero-section"
-                style="background-image: url('/assets/office.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+<section id="home"
+    class="h-[150vh]  flex items-center justify-center relative overflow-hidden hero-section "
+    style="background-image: url('/assets/office.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
 
-                <div class="overlay"></div>
+    <div class="overlay"></div>
 
 
-                <div class="container-custom relative z-10">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-screen">
+    <div class="container-custom relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-screen">
 
-                        <!-- left side - content -->
-                        <div class="hero-content  ">
-                            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight mt-20 heading">
-                                <span class="text-foreground">Enhance</span><br>
-                                <span class="text-primary">Your Skills</span><br>
-                                <span class="text-foreground">With <br>Technology</span>
-                            </h1>
-                            <p class=" max-w-3xl paragraph">
-                                Gain real-world skills through top-rated<br> courses.
-                                 and empower yourself to <br>shape a successful future.
-                            </p>
+            <!-- left side - content -->
+            <div class="hero-content  ">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight mt-20 heading">
+                    <span class="text-foreground">Enhance</span><br>
+                    <span class="primary-red">Your Skills</span><br>
+                    <span class="text-foreground">With <br>Technology</span>
+                </h1>
+                <p class=" max-w-3xl paragraph">
+                    Gain real-world skills through top-rated<br> courses.
+                     and empower yourself to <br>shape a successful future.
+                </p>
 
-                            <div class="flex flex-col sm:flex-row gap-4 ">
-                                <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors h-9 bg-primary text-primary-foreground hover:bg-primary-glow px-6 py-8 text-lg font-medium shadow-glow">
-                                    Browse Courses
-                                </button>
-                                {{-- <button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors border bg-background hover:text-accent-foreground h-10 border-border hover:bg-accent px-8 py-4 text-lg font-medium">
-                                    Learn More
-                                </button> --}}
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="flex flex-col sm:flex-row gap-4 ">
+                    <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors h-9 bg-primary text-primary-foreground hover:bg-primary-glow px-6 py-8 text-lg font-medium shadow-glow">
+                        Browse Courses
+                    </button>
+                    {{-- <button
+                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors border bg-background hover:text-accent-foreground h-10 border-border hover:bg-accent px-8 py-4 text-lg font-medium">
+                        Learn More
+                    </button> --}}
                 </div>
+            </div>
 
-                <!-- Floating pulse dots -->
-                <div class="absolute top-1/4 right-10 w-4 h-4 bg-primary rounded-full opacity-60 animate-pulse"></div>
-                <div
-                    class="absolute bottom-1/4 left-10 w-6 h-6 bg-primary/30 rounded-full opacity-40 animate-pulse delay-1000">
-                </div>
-                <div class="absolute top-1/2 right-1/4 w-2 h-2 bg-primary rounded-full opacity-80 animate-pulse delay-500">
-                </div>
-            </section>
+        </div>
+    </div>
 
-            <section id="courses" class="section-padding section-light">
-                <div class="container-custom">
-                    <div class="text-center mb-16 fade-in-up">
-                        <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">Our Featured <span
-                                class="text-primary">Courses</span></h2>
-                        <p class="text-lg text-muted-foreground max-w-2xl mx-auto">Discover cutting-edge courses designed to
-                            transform your career and master the latest technologies.</p>
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div
-                            class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-elegant transition-all duration-300 group fade-in-up">
-                            <div class="flex flex-col space-y-1.5 p-0 relative">
-                                <div class="relative overflow-hidden rounded-t-lg"><img
-                                        src="/assets/course-react-BGtL-_n-.jpg" alt="React JS Mastery: Beginner to Advanced"
-                                        class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                                    <div class="absolute top-4 left-4">
-                                        <div
-                                            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-destructive/80 bg-primary text-primary-foreground">
-                                            BESTSELLER</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-semibold text-card-foreground mb-2 line-clamp-2">React JS Mastery:
-                                    Beginner to
-                                    Advanced</h3>
-                                <p class="text-muted-foreground text-sm mb-4 line-clamp-2">Master React.js from fundamentals
-                                    to advanced
-                                    concepts with hands-on projects.</p>
-                                <div class="flex items-center gap-2 mb-4">
-                                    <div class="flex items-center gap-1"><i class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star-half-alt text-yellow-400"></i></div>
-                                    <span class="text-card-foreground font-semibold">4.9</span><span
-                                        class="text-muted-foreground text-sm">(234 reviews)</span>
-                                </div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-clock"></i><span>12 hours</span></div>
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-user"></i><span>Azure Dev</span></div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center gap-2"><span
-                                            class="text-2xl font-bold text-primary">$199</span><span
-                                            class="text-muted-foreground text-sm line-through">$299</span></div>
-                                </div>
-                            </div>
-                            <div class="flex items-center p-6 pt-0"><button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 w-full bg-primary text-primary-foreground hover:bg-primary-glow">Enroll
-                                    Now</button></div>
-                        </div>
-                        <div
-                            class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-elegant transition-all duration-300 group fade-in-up">
-                            <div class="flex flex-col space-y-1.5 p-0 relative">
-                                <div class="relative overflow-hidden rounded-t-lg"><img
-                                        src="/assets/course-python-CzgP20S-.jpg" alt="Python Full Stack Development"
-                                        class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                                    <div class="absolute top-4 left-4">
-                                        <div
-                                            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-destructive/80 bg-primary text-primary-foreground">
-                                            NEW</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-semibold text-card-foreground mb-2 line-clamp-2">Python Full Stack
-                                    Development
-                                </h3>
-                                <p class="text-muted-foreground text-sm mb-4 line-clamp-2">Complete Python development
-                                    course covering
-                                    backend, frontend, and deployment.</p>
-                                <div class="flex items-center gap-2 mb-4">
-                                    <div class="flex items-center gap-1"><i class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star-half-alt text-yellow-400"></i></div>
-                                    <span class="text-card-foreground font-semibold">4.8</span><span
-                                        class="text-muted-foreground text-sm">(189 reviews)</span>
-                                </div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-clock"></i><span>16 hours</span></div>
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-user"></i><span>Azure Dev</span></div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center gap-2"><span
-                                            class="text-2xl font-bold text-primary">$249</span><span
-                                            class="text-muted-foreground text-sm line-through">$349</span></div>
-                                </div>
-                            </div>
-                            <div class="flex items-center p-6 pt-0"><button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 w-full bg-primary text-primary-foreground hover:bg-primary-glow">Enroll
-                                    Now</button></div>
-                        </div>
-                        <div
-                            class="rounded-lg border text-card-foreground shadow-sm bg-card border-border hover:shadow-elegant transition-all duration-300 group fade-in-up">
-                            <div class="flex flex-col space-y-1.5 p-0 relative">
-                                <div class="relative overflow-hidden rounded-t-lg"><img
-                                        src="/assets/course-data-science-z84cVRPo.jpg"
-                                        alt="Data Science &amp; Machine Learning"
-                                        class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
-                                    <div class="absolute top-4 left-4">
-                                        <div
-                                            class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-destructive/80 bg-primary text-primary-foreground">
-                                            POPULAR</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="p-6">
-                                <h3 class="text-xl font-semibold text-card-foreground mb-2 line-clamp-2">Data Science &amp;
-                                    Machine
-                                    Learning</h3>
-                                <p class="text-muted-foreground text-sm mb-4 line-clamp-2">Comprehensive data science
-                                    course with
-                                    real-world ML projects and case studies.</p>
-                                <div class="flex items-center gap-2 mb-4">
-                                    <div class="flex items-center gap-1"><i class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star text-yellow-400"></i><i
-                                            class="fas fa-star-half-alt text-yellow-400"></i></div>
-                                    <span class="text-card-foreground font-semibold">4.9</span><span
-                                        class="text-muted-foreground text-sm">(167 reviews)</span>
-                                </div>
-                                <div class="flex items-center justify-between mb-4">
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-clock"></i><span>20 hours</span></div>
-                                    <div class="flex items-center gap-2 text-muted-foreground text-sm"><i
-                                            class="fas fa-user"></i><span>Azure Dev</span></div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <div class="flex items-center gap-2"><span
-                                            class="text-2xl font-bold text-primary">$299</span><span
-                                            class="text-muted-foreground text-sm line-through">$399</span></div>
-                                </div>
-                            </div>
-                            <div class="flex items-center p-6 pt-0"><button
-                                    class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 w-full bg-primary text-primary-foreground hover:bg-primary-glow">Enroll
-                                    Now</button></div>
-                        </div>
-                    </div>
-                    <div class="text-center mt-12 fade-in-up"><button
-                            class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 border bg-background hover:text-accent-foreground h-10 border-border hover:bg-accent px-8 py-3">View
-                            All Courses</button></div>
-                </div>
-            </section>
-            <section id="about" class="section-padding bg-accent/30">
-                <div class="container-custom">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-                        <div class="fade-in-up">
-                            <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-6">About <span
-                                    class="text-primary">Azure Dev
-                                </span></h2>
-                            <p class="text-lg text-muted-foreground mb-6 leading-relaxed">At Azure Dev Academy, we believe
-                                that
-                                technology education should be accessible, practical, and transformative. Our mission is to
-                                bridge the
-                                gap between traditional learning and industry demands.</p>
-                            <p class="text-lg text-muted-foreground mb-8 leading-relaxed">Founded by industry experts with
-                                over a
-                                decade of experience, we focus on hands-on learning, real-world projects, and personalized
-                                mentorship to
-                                ensure our students not only learn but excel in their careers.</p>
-                            <div class="grid grid-cols-2 gap-6 mb-8">
-                                <div class="text-center p-4 bg-card rounded-lg border border-border">
-                                    <div class="text-2xl font-bold text-primary mb-2">500+</div>
-                                    <div class="text-muted-foreground text-sm">Students Graduated</div>
-                                </div>
-                                <div class="text-center p-4 bg-card rounded-lg border border-border">
-                                    <div class="text-2xl font-bold text-primary mb-2">95%</div>
-                                    <div class="text-muted-foreground text-sm">Placement Rate</div>
-                                </div>
-                                <div class="text-center p-4 bg-card rounded-lg border border-border">
-                                    <div class="text-2xl font-bold text-primary mb-2">50+</div>
-                                    <div class="text-muted-foreground text-sm">Corporate Partners</div>
-                                </div>
-                                <div class="text-center p-4 bg-card rounded-lg border border-border">
-                                    <div class="text-2xl font-bold text-primary mb-2">24/7</div>
-                                    <div class="text-muted-foreground text-sm">Learning Support</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex justify-center fade-in-up">
-                            <div class="relative">
-                                <div
-                                    class="w-80 h-80 rounded-full overflow-hidden shadow-elegant border-4 border-primary/20 bg-card">
-                                    <img src="/assets/instructor-1-Bx9X49w3.jpg" alt="Azure Dev Academy Instructor"
-                                        class="w-full h-full object-cover">
-                                </div>
-                                <div
-                                    class="absolute -inset-4 rounded-full bg-gradient-to-r from-primary/20 to-primary-glow/20 blur-xl -z-10">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fade-in-up">
-                        <div class="text-center mb-12">
-                            <h3 class="text-2xl md:text-3xl font-bold text-foreground mb-4">Our <span
-                                    class="text-primary">Journey</span></h3>
-                            <p class="text-lg text-muted-foreground">Milestones that shaped our academy into what it is
-                                today</p>
-                        </div>
-                        <div class="relative">
-                            <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-border hidden md:block"></div>
-                            <div class="space-y-8">
-                                <div class="relative flex items-start gap-8">
-                                    <div
-                                        class="hidden md:flex w-16 h-16 bg-primary rounded-full items-center justify-center shadow-glow flex-shrink-0 relative z-10">
-                                        <i class="fas fa-rocket text-primary-foreground text-lg"></i>
-                                    </div>
-                                    <div
-                                        class="flex-1 bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-elegant transition-shadow duration-300">
-                                        <div class="flex items-center gap-4 mb-3">
-                                            <div
-                                                class="md:hidden w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                                                <i class="fas fa-rocket text-primary-foreground"></i>
-                                            </div>
-                                            <div><span
-                                                    class="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-2">2021</span>
-                                                <h4 class="text-xl font-semibold text-card-foreground">Started Web
-                                                    Development</h4>
-                                            </div>
-                                        </div>
-                                        <p class="text-muted-foreground leading-relaxed">Founded Azure Dev Academy with a
-                                            vision to
-                                            democratize technology education</p>
-                                    </div>
-                                </div>
-                                <div class="relative flex items-start gap-8">
-                                    <div
-                                        class="hidden md:flex w-16 h-16 bg-primary rounded-full items-center justify-center shadow-glow flex-shrink-0 relative z-10">
-                                        <i class="fas fa-laptop-code text-primary-foreground text-lg"></i>
-                                    </div>
-                                    <div
-                                        class="flex-1 bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-elegant transition-shadow duration-300">
-                                        <div class="flex items-center gap-4 mb-3">
-                                            <div
-                                                class="md:hidden w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                                                <i class="fas fa-laptop-code text-primary-foreground"></i>
-                                            </div>
-                                            <div><span
-                                                    class="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-2">2022</span>
-                                                <h4 class="text-xl font-semibold text-card-foreground">Launched Online
-                                                    Courses</h4>
-                                            </div>
-                                        </div>
-                                        <p class="text-muted-foreground leading-relaxed">Expanded to comprehensive online
-                                            learning with
-                                            interactive projects</p>
-                                    </div>
-                                </div>
-                                <div class="relative flex items-start gap-8">
-                                    <div
-                                        class="hidden md:flex w-16 h-16 bg-primary rounded-full items-center justify-center shadow-glow flex-shrink-0 relative z-10">
-                                        <i class="fas fa-users text-primary-foreground text-lg"></i>
-                                    </div>
-                                    <div
-                                        class="flex-1 bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-elegant transition-shadow duration-300">
-                                        <div class="flex items-center gap-4 mb-3">
-                                            <div
-                                                class="md:hidden w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                                                <i class="fas fa-users text-primary-foreground"></i>
-                                            </div>
-                                            <div><span
-                                                    class="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-2">2023</span>
-                                                <h4 class="text-xl font-semibold text-card-foreground">Trained 500+
-                                                    Students</h4>
-                                            </div>
-                                        </div>
-                                        <p class="text-muted-foreground leading-relaxed">Reached milestone of training over
-                                            500 successful
-                                            developers</p>
-                                    </div>
-                                </div>
-                                <div class="relative flex items-start gap-8">
-                                    <div
-                                        class="hidden md:flex w-16 h-16 bg-primary rounded-full items-center justify-center shadow-glow flex-shrink-0 relative z-10">
-                                        <i class="fas fa-handshake text-primary-foreground text-lg"></i>
-                                    </div>
-                                    <div
-                                        class="flex-1 bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-elegant transition-shadow duration-300">
-                                        <div class="flex items-center gap-4 mb-3">
-                                            <div
-                                                class="md:hidden w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                                                <i class="fas fa-handshake text-primary-foreground"></i>
-                                            </div>
-                                            <div><span
-                                                    class="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-semibold mb-2">2024</span>
-                                                <h4 class="text-xl font-semibold text-card-foreground">Industry
-                                                    Partnerships</h4>
-                                            </div>
-                                        </div>
-                                        <p class="text-muted-foreground leading-relaxed">Established partnerships with
-                                            leading tech
-                                            companies for placements</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <!-- Floating pulse dots -->
+    <div class="absolute top-1/4 right-10 w-4 h-4 bg-primary rounded-full opacity-60 animate-pulse"></div>
+    <div
+        class="absolute bottom-1/4 left-10 w-6 h-6 bg-primary/30 rounded-full opacity-40 animate-pulse delay-1000">
+    </div>
+    <div class="absolute top-1/2 right-1/4 w-2 h-2 bg-primary rounded-full opacity-80 animate-pulse delay-500">
+    </div>
+</section>
+
+            @include("components.about")
+          @include("components.courses")
+
             <section id="services" class="section-padding bg-background">
                 <div class="container-custom">
                     <div class="text-center mb-16 fade-in-up">
@@ -1397,4 +1093,18 @@
                         class="fas fa-chevron-up text-lg"></i></button></div>
         </div>
     </div>
+
+     <div class="border-t border-primary-foreground/20 py-8 px-4 md:px-0 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+              <div>
+                <h3 class="text-lg font-semibold mb-2">Stay Updated</h3>
+                <p class="text-sm text-primary-foreground/80">Get the latest updates on new courses, career tips, and
+                  exclusive offers.</p>
+              </div>
+              <div class="flex gap-3"><input type="email" placeholder="Enter your email"
+                  class="w-full md:flex-1 px-4 py-2 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:border-primary-foreground/40"><button
+                  class="px-6 py-2 bg-primary-foreground text-primary rounded-lg hover:bg-primary-foreground/90 transition-colors duration-200 font-medium">Subscribe</button>
+              </div>
+            </div>
+          </div>
 @endsection

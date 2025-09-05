@@ -798,8 +798,8 @@ nav .bg-primary:hover {
 
 /* Footer Styling */
 footer {
-    background: var(--gradient-primary) !important;
-
+    /* background: #000!important; */
+    background: linear-gradient(to right, rgba(230, 97, 97, 0.863), rgba(189, 75, 119, 0.678), rgba(233, 92, 92, 0.87));
     color: var(--white) !important;
 }
 
@@ -853,7 +853,7 @@ footer {
 
 
 .paragraph {
-    color: #fff;
+    color: #000;
     font-size: 1rem;
     /* margin-right: 250px; */
     font-weight: 300;
@@ -1033,4 +1033,68 @@ h6 {
 .gradient-animate {
     background-size: 200% 200%;
     animation: gradientShift 6s ease infinite;
+}
+
+#courses {
+    background: #F1EEE3;
+}
+
+#about {
+    background-color: #F1EEE3;
+}
+
+.about-heading {
+    color: #111827;
+
+}
+
+.text-heading {
+    color: #F8072A;
+}
+
+.leading-relaxed {
+    color: #4B5563;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.btn-15 {
+    position: relative;
+    /* needed for :after positioning */
+    background: linear-gradient(90deg, #4facfe, #8e44fe);
+    border: none;
+    z-index: 1;
+    overflow: hidden;
+    /* keeps pseudo inside */
+}
+
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* anchor from left */
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .5),
+        7px 7px 20px rgba(0, 0, 0, .1),
+        4px 4px 5px rgba(0, 0, 0, .1);
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+    color: #fff;
+}
+
+.btn-15:hover:after {
+    width: 100%;
+    /* expands background */
+}
+
+.btn-15:active {
+    top: 2px;
 }

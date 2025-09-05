@@ -1,4 +1,4 @@
-<footer class="bg-primary text-primary-foreground">
+<footer class=" text-primary-foreground">
         <div class="container-custom px-4 md:px-6">
           <div class="py-16">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
@@ -94,19 +94,7 @@
               </div>
             </div>
           </div>
-          <div class="border-t border-primary-foreground/20 py-8 px-4 md:px-0">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
-              <div>
-                <h3 class="text-lg font-semibold mb-2">Stay Updated</h3>
-                <p class="text-sm text-primary-foreground/80">Get the latest updates on new courses, career tips, and
-                  exclusive offers.</p>
-              </div>
-              <div class="flex gap-3"><input type="email" placeholder="Enter your email"
-                  class="w-full md:flex-1 px-4 py-2 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:border-primary-foreground/40"><button
-                  class="px-6 py-2 bg-primary-foreground text-primary rounded-lg hover:bg-primary-foreground/90 transition-colors duration-200 font-medium">Subscribe</button>
-              </div>
-            </div>
-          </div>
+         
           <div class="border-t border-primary-foreground/20 py-6 px-4 md:px-0">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
               <p class="text-sm text-primary-foreground/80">© 2025 Azure Dev Academy. All Rights Reserved.</p>
