@@ -9,53 +9,9 @@
         </div>
         <section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text"
             aria-atomic="false"></section>
-        <div class="min-h-screen bg-background">
+        <div class="min-h-screen ">
 
-<section id="home"
-    class="h-[150vh]  flex items-center justify-center relative overflow-hidden hero-section "
-    style="background-image: url('/assets/office.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
-
-    <div class="overlay"></div>
-
-
-    <div class="container-custom relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center min-h-screen">
-
-            <!-- left side - content -->
-            <div class="hero-content  ">
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight mt-20 heading">
-                    <span class="text-foreground">Enhance</span><br>
-                    <span class="primary-red">Your Skills</span><br>
-                    <span class="text-foreground">With <br>Technology</span>
-                </h1>
-                <p class=" max-w-3xl paragraph">
-                    Gain real-world skills through top-rated<br> courses.
-                     and empower yourself to <br>shape a successful future.
-                </p>
-
-                <div class="flex flex-col sm:flex-row gap-4 ">
-                    <button
-                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors h-9 bg-primary text-primary-foreground hover:bg-primary-glow px-6 py-8 text-lg font-medium shadow-glow">
-                        Browse Courses
-                    </button>
-                    {{-- <button
-                        class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background transition-colors border bg-background hover:text-accent-foreground h-10 border-border hover:bg-accent px-8 py-4 text-lg font-medium">
-                        Learn More
-                    </button> --}}
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!-- Floating pulse dots -->
-    <div class="absolute top-1/4 right-10 w-4 h-4 bg-primary rounded-full opacity-60 animate-pulse"></div>
-    <div
-        class="absolute bottom-1/4 left-10 w-6 h-6 bg-primary/30 rounded-full opacity-40 animate-pulse delay-1000">
-    </div>
-    <div class="absolute top-1/2 right-1/4 w-2 h-2 bg-primary rounded-full opacity-80 animate-pulse delay-500">
-    </div>
-</section>
+  @include("components.hero-banner")
 
             @include("components.about")
           @include("components.courses")

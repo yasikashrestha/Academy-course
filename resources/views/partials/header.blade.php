@@ -1,48 +1,59 @@
-<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 ">
-    <div class="container-custom">
-        <div class="flex items-center justify-between py-1">
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <div class="d-flex align-items-center">
 
-            <!-- Logo -->
-            <div class="flex items-center space-x-3">
                 <img src="/assets/azure-logo.png" alt="Azure Dev" class="h-12 w-auto object-contain">
-                <!-- bigger logo, keeps aspect -->
             </div>
+        </a>
 
-            <!-- Navbar Links -->
-            <div class="hidden lg:flex items-center space-x-8">
+        <!-- Mobile menu button -->
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <button class=" font-bold transition-colors duration-300">Courses</button>
-
-                <div class="dropdown">
-                    <button class="btn dropdown-toggle  font-bold" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+        <!-- Navbar content -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Courses</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                         Pages
-                    </button>
-                    <ul class="dropdown-menu">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="#">About</a></li>
                         <li><a class="dropdown-item" href="#">Services</a></li>
                         <li><a class="dropdown-item" href="#">Testimonial</a></li>
                         <li><a class="dropdown-item" href="#">FAQ</a></li>
-
                     </ul>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Us</a>
+                </li>
+            </ul>
 
-
-                <button class=" font-bold transition-colors duration-300">Contact</button>
+            <div class="call d-none d-xl-flex gap-2">
+                <i class="bi bi-telephone-fill phone-icon "></i>
+                
+                <a href="tel:9802890585">9802890585</a>
             </div>
+
 
             <!-- CTA Button -->
-            <div class="hidden lg:block">
-                <button
-                    class="inline-flex items-center justify-center gap-2 rounded-md text-sm font-medium h-10 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary-glow shadow-glow">
-                    Get Started
-                </button>
+            <div class="d-flex mt-3 mt-lg-0">
+                <button class="btn btn-outline-danger">Get Started</button>
             </div>
-
-            <!-- Mobile Menu -->
-            <button class="inline-flex items-center justify-center h-9 px-3 lg:hidden text-white rounded-md">
-                <i class="fas fa-bars"></i>
-            </button>
         </div>
     </div>
 </nav>

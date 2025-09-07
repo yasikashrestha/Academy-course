@@ -21,10 +21,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@lovable_dev">
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" crossorigin="" href="/assets/index-nlUjXxZ7.css">
     <link rel="stylesheet" href="/CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -48,8 +51,21 @@
             }
         });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
 
+   <script>
+        // Simple animation for the "LET'S CHAT" button
+        document.addEventListener('DOMContentLoaded', function() {
+            const letsChat = document.querySelector('.bg-red-100');
+
+            setInterval(() => {
+                letsChat.classList.toggle('bg-red-100');
+                letsChat.classList.toggle('bg-red-200');
+            }, 2000);
+        });
+    </script>
 </body>
 
 </html>

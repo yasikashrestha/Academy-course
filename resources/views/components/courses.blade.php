@@ -1,4 +1,4 @@
-  <section id="courses" class="section-padding section-light">
+  <section id="courses" class="section-padding ">
                 <div class="container-custom">
                     <div class="text-center mb-16 fade-in-up">
                         <h2 class="text-3xl md:text-4xl font-bold text-foreground mb-4">Our Featured <span
